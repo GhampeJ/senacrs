@@ -1,0 +1,16 @@
+ID_pokemon;nome;geracao;tipo;nivel;lendario
+1;Reshiram;5;dragao/fogo;50;true
+2;Zekron;5;dragao/eletrico;50;true
+3;axew;5;dragao;1;false
+4;snivy;5;grama;1;false
+5;tepig;5;fogo;1;false
+6;oshawott;5;agua;1;false
+7;purrloin;5;dark;5;false
+8;excadrill;5;terrestre/aço;30;false
+9;sandile;5;terrestre/dark;1;false
+10;scraggy;5;dark;5;false
+11;tirtouga;5;agua;5;false
+12;zoroark;5;dark;40;false
+13;emolga;5;eletrico;1;false
+14;beartic;5;gelo;30;false
+15;hydreigon;5;dark;40;false

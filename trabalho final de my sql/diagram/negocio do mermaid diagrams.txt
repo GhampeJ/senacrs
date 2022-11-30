@@ -1,0 +1,49 @@
+erDiagram
+    Treinador ||--o{ Pokemon: pokemon
+    Treinador{
+        key ID_treiner
+        string nome
+        int numero_de_insignias
+        int numero_de_pokemons
+        int numero_de_pokemoons_na_equipe
+    }
+    Itens ||--o{ Pokebolas: itens
+    Pokebolas{
+        key ID_pokeballs
+        int quantidade
+        string tipo
+
+    }
+    Treinador ||--o{ Itens : itens
+    Itens{
+        key ID_itens
+        int Quantidade
+        
+    }
+    Itens ||--o{ Pocoes: itens
+    Pocoes{
+        key id_potions
+        int Quantidade
+        int Tipo
+    }
+    Treinador ||--o{ Ginasios: local
+    Ginasios{
+        key ID_ginasios
+        string tipo
+        boolean participa_de_um_ginasio
+        int quantidade_de_treinadores  
+    }
+    Treinador ||--o{ batalhas: batalhas
+    batalhas{
+        int quantas_vezes_batalhou
+        int vitorias
+        ind derrotas
+    }
+    Pokemon{
+        key ID_pokemons
+        string nome
+        string tipo
+        int level
+        boolean shiny
+        boolean lendario
+    }
